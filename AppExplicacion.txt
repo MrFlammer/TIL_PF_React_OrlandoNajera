@@ -1,0 +1,27 @@
+//////////////TODAY I LEARNED APP /////////////////////
+
+TODAY I LEARNED es un aplicacion que permite a los usuarios consultar datos de distintas categorias, en conjunto con su fuente y la calificacion de dicho dato segun los usuarios.
+Los usuarios de igual forma pueden contribuir subiendo sus propios datos, alimentando asi a la base de datos para los usuarios. 
+la aplicacion cuenta con 8 categorias:
+
+-Tecnologia
+-Ciencia
+-Finanzas
+-Entretenimiento
+-Salud
+-Historia
+-Noticias
+
+Normalmente en la aplicacion se pueden ver los datos de todas las categorias, pero la misma cuenta con un componente que permite filtrar las categorias para consultar 
+los datos de una sola categoria.
+Como se menciono anteriormente tambien se pueden calificar los datos, esto permite que los usuarios sepan si un dato es verdadero o falso, hay tres tipos de calificaciones o votos:
+
+-Interesting Fact
+-Mindblowing Fact
+-False Fact
+
+Cuando un dato acumula mas votos "False Fact" que el conjunto de "Mindblowing y Interesting" el dato mostrara una alerta de [DISPUTED] lo que significara que el dato en cuestion
+es cuestionable. 
+Cuando se sube un nuevo dato, simepre es necesario contar con una fuente de una pagina que inicialice con https: o http: de lo contrario la forma no se subira rechazando el dato que el
+usuario quiera subir. este dato se subira automaticamente a la base de datos desplegada port medio de supabase y retroactivamente mostarara el nuevo dato en la aplicacion
+listo para ser evaluado por los usuarios.
